@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(214, 240, 231);
+  font-family: Helvetica, sans-serif;
+  display: flex;
+}
+
+/* Add this class to the button 
+/* When the button is clicked, <body> will
+/* slide 400px to the right */
+.off-site-opened {
+  transform: translateX(300px)
+}
+
+/* off-site menu BEFORE CLICKED */
+.off-site {
+  position: absolute;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  background-color: rgb(202, 199, 199);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+ul {
+  width: 150px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  font-size: 25px;
+  color:rgb(214, 240, 231);
+}
+
+.list:hover {
+  cursor: pointer;
+  color: white;
+  font-size: 27px;
+}
+
+/* Main */
+.main {
+  margin: 30px 30px;
+  position: absolute; /* this is a big ?*/
+}
+
+/* Hamburger menu icon here */
+.button {
+  width: 55px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(202, 199, 199);
+}
+
+.button:hover, .button h4:hover {
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+
+.hamburger-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.hamburger {
+  width: 100%;
+  color: black;
+  border: solid 4px rgb(202, 199, 199);
+  border-radius: 3px;
+}
+
+.button h4 {
+  text-align: center;
+}
+
+
+/* Intro paragraph */
+.intro {
+  margin-top: 90px;
+}
+
+.intro h3 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.emphasize {
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(212, 199, 18);
+}
+
+.intro h5 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 300;
+}
