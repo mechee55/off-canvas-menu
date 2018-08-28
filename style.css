@@ -12,7 +12,7 @@ body {
 /* When the button is clicked, <body> will
 /* slide 400px to the right */
 .off-site-opened {
-  transform: translateX(300px)
+  transform: translateX(300px);
 }
 
 /* off-site menu BEFORE CLICKED */
@@ -43,7 +43,7 @@ ul {
 
 .list {
   font-size: 25px;
-  color:rgb(214, 240, 231);
+  color: rgb(214, 240, 231);
 }
 
 .list:hover {
@@ -55,7 +55,6 @@ ul {
 /* Main */
 .main {
   margin: 30px 30px;
-  position: absolute; /* this is a big ?*/
 }
 
 /* Hamburger menu icon here */
@@ -68,7 +67,8 @@ ul {
   color: rgb(202, 199, 199);
 }
 
-.button:hover, .button h4:hover {
+.button:hover,
+.button h4:hover {
   cursor: pointer;
   color: white;
   font-size: 18px;
@@ -91,7 +91,6 @@ ul {
 .button h4 {
   text-align: center;
 }
-
 
 /* Intro paragraph */
 .intro {
